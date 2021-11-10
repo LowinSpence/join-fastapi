@@ -31,7 +31,7 @@ app.include_router(vote.router)
 
 @app.get("/") #decorator makes it a FASTAPI, "get" is an HTTP request Method, '("/") is the PATH
 def root():
-    return {"message": "Hello World, today"}
+    return {"message": "Welcome to Join Lowin!"}
 
 
 
